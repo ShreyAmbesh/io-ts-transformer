@@ -1,50 +1,50 @@
 {
-    "name": "io-ts-transformer",
-    "version": "1.1.8",
-    "description": "transforms types to io-ts entities",
-    "author": "awerlogus",
-    "license": "MIT",
-    "scripts": {
-        "build": "node ./node_modules/ttypescript/bin/tsc",
-        "prepublishOnly": "npm run build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/awerlogus/io-ts-transformer.git"
-    },
-    "bugs": {
-        "url": "https://github.com/awerlogus/io-ts-transformer/issues"
-    },
-    "homepage": "https://github.com/awerlogus/io-ts-transformer/#readme",
-    "keywords": [
-        "TypeScript",
-        "io-ts",
-        "fp-ts",
-        "ast",
-        "transformer",
-        "functional",
-        "fp"
-    ],
-    "files": [
-        "transformer.js",
-        "transformer.ts",
-        "index.d.ts",
-        "index.js"
-    ],
-    "devDependencies": {
-        "@types/node": "11.13.4",
-        "@types/resolve": "^1.20.0",
-        "resolve": "^1.20.0",
-        "rimraf": "^2.7.1",
-        "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-typescript2": "^0.24.3",
-        "tsconfig-paths": "3.8.0",
-        "tslib": "^1.11.1",
-        "ttypescript": "^1.5.10",
-        "typescript": "^3.8.3"
-    },
-    "peerDependencies": {
-        "io-ts": "^2.1.1",
-        "typescript": ">=3.5.2"
-    }
+  "name": "transformer-io-ts",
+  "version": "1.1.8",
+  "description": "transforms types to io-ts entities",
+  "author": "Shrey Ambesh",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./node_modules/ttypescript/bin/tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyAmbesh/io-ts-transformer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShreyAmbesh/io-ts-transformer/issues"
+  },
+  "homepage": "https://github.com/ShreyAmbesh/io-ts-transformer/#readme",
+  "keywords": [
+    "TypeScript",
+    "io-ts",
+    "fp-ts",
+    "ast",
+    "transformer",
+    "functional",
+    "fp"
+  ],
+  "files": [
+    "transformer.js",
+    "transformer.ts",
+    "index.d.ts",
+    "index.js"
+  ],
+  "devDependencies": {
+    "@types/node": "11.13.4",
+    "@types/resolve": "^1.20.0",
+    "resolve": "^1.20.0",
+    "rimraf": "^2.7.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "tsconfig-paths": "3.8.0",
+    "tslib": "^1.11.1",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "io-ts": "^2.1.1",
+    "typescript": ">=3.5.2"
+  }
 }
